@@ -18,11 +18,11 @@
 using namespace std;
  
 int main() {
-    // string name;
-    // cout << "Enter your name here: ";  //FIXED
-    // cin >> name;    //FIXED
+    string name;
+    cout << "Enter your name here: ";  //FIXED
+    getline(cin, name);    //FIXED
 
-    // cout << "\nIt is great to meet you " << name << "!" << endl;  //FIXED
+    cout << "\nIt is great to meet you " << name << "!" << endl;  //FIXED
 
     cout << "Hope you like my Tom & Jerry ASCII art...\n\n";
 
@@ -44,8 +44,6 @@ int main() {
 
     string yes;
     cout << "\nGood bye friend... hit enter to exit the program: ";
-    getline(cin, yes); //THIS LINE DOESN'T WORK WITH THE TOP SECTION
-    cout << endl;
-
+    getline(cin, yes); //FIXED
     return 0;
 }

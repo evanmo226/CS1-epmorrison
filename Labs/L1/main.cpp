@@ -42,9 +42,11 @@ int main()
     cout << line5;  //FIXED
 
 
-    cout << "\nGood bye... hit enter to exit the program: " << '\n';
+    cout << "\nGood bye... hit enter to exit the program: " << "\n";
 
-    //FIXME10: make the console wait for user input
-
+    string urm;
+    getline(cin, urm);
+    cout << urm;
+    
     return 0;
 }

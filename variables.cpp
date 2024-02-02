@@ -9,15 +9,15 @@ using namespace std;
 
 int main()
 {
-    string somePhrase;
+    // string somePhrase;
 
-    somePhrase = "This is a \"phrase\" \tthat I'm typing.\n";
+    // somePhrase = "This is a \"phrase\" \tthat I'm typing.\n";
 
-    cout << somePhrase;
+    // cout << somePhrase;
     
-    // string fName;
-    // cout << "What is your name? ";
-    // getline(cin, fName);
-    // cout << "Welcome " << fName << " to our program." << endl;
+    string fName;
+    cout << "What is your name? ";
+    getline(cin, fName);
+    cout << "Welcome " << fName << " to our program." << endl;
     return 0;
 }

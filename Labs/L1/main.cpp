@@ -3,7 +3,7 @@
     ASCII Art - using literals and variables
     
     Updated By: Evan Morrison
-    Date: 1 Feb 2023
+    Date: 1 Feb 2024
     
     This program produces an ASCII art on the console.
 
@@ -17,13 +17,12 @@
  
 using namespace std;
  
-int main()
-{
-    string name;
-    cout << "Enter your name here: ";  //FIXED
-    cin >> name;    //FIXED
+int main() {
+    // string name;
+    // cout << "Enter your name here: ";  //FIXED
+    // cin >> name;    //FIXED
 
-    cout << "It is great to meet you " << name << "!" << endl;  //FIXED
+    // cout << "\nIt is great to meet you " << name << "!" << endl;  //FIXED
 
     cout << "Hope you like my Tom & Jerry ASCII art...\n\n";
 
@@ -33,20 +32,20 @@ int main()
     string line2 = "   / @ @ \\ \t*           ASCII Lab     \t*    (='.'=)\n";
     cout << line2;  //FIXED
 
-    cout << "  (>  0  <) \t*      By: Evan Morrison  \t*    (\")_(\")\n";   //FIXED
+    string line3 = "  (>  0  <) \t*      By: Evan Morrison  \t*    (\")_(\")\n" ;
+    cout << line3;   //FIXED
 
-    string line4 = "    >>x<<   \t*           CSCI 130     \t*";
+    string line4 = "    >>x<<   \t*           CSCI 130     \t*" ;
     cout << line4 << endl; //FIXED
 
     string line5 = "   /  O  \\   \t*********************************\n";
     cout << line5;  //FIXED
 
 
-    cout << "\nGood bye... hit enter to exit the program: " << "\n";
+    string yes;
+    cout << "\nGood bye friend... hit enter to exit the program: ";
+    getline(cin, yes); //THIS LINE DOESN'T WORK WITH THE TOP SECTION
+    cout << endl;
 
-    string urm;
-    getline(cin, urm);
-    cout << urm;
-    
     return 0;
 }

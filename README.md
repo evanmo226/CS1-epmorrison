@@ -1,5 +1,19 @@
 # CS1-epmorrison
 
+## Assignments
+
+### Assignment #1
+
+| Name | Value |
+| :--- | :--- |
+| Name | 1 - Std IO Assignment  |
+| Description | Hangman Game Sample |
+| Due Date | 12-Feb-24 |
+| Status | complete |
+| Location | N/A |
+| Self Grade | 100/100 |
+| Notes | Coded various stages for an underdevelopement hangman game. |
+
 ## Labs
 
 ### Lab #1

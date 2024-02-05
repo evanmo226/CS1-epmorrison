@@ -4,20 +4,19 @@ Name: Evan Morrison
 All about the variables
 */
 #include <iostream>
+#include <string>
+#include <cmath>
 
 using namespace std;
 
+
 int main()
 {
-    // string somePhrase;
+    // float result = (180/3.1415)*cos(42)+360;
+    // cout << result << endl;
 
-    // somePhrase = "This is a \"phrase\" \tthat I'm typing.\n";
+    cout << pow(2, 8) << endl;
 
-    // cout << somePhrase;
-    
-    string fName;
-    cout << "What is your name? ";
-    getline(cin, fName);
-    cout << "Welcome " << fName << " to our program." << endl;
+    // cout << cos(3.1415) << endl;
     return 0;
 }

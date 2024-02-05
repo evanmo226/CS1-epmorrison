@@ -1,6 +1,5 @@
 /*
     StdIO HW1
-    ASCII Art - using literals and variables
     
     Updated By: Evan Morrison
     Date: 1 Feb 2024

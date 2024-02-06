@@ -12,11 +12,20 @@ using namespace std;
 
 int main()
 {
-    // float result = (180/3.1415)*cos(42)+360;
-    // cout << result << endl;
+    int origSeconds;
+    int numSeconds;
+    int numMinutes;
+    int numHours;
 
-    cout << pow(2, 8) << endl;
+    cout << "Enter number of seconds: ";
+    cin >> origSeconds;
+    numSeconds = origSeconds;
 
-    // cout << cos(3.1415) << endl;
+    numHours = numSeconds/3600;
+    numMinutes = (numSeconds/60) - (numHours*60);
+    numSeconds = numSeconds%60;
+
+    cout << "The hours:minutes:seconds given " << origSeconds << " seconds is: \n"
+        << numHours << ":" << numMinutes << ":" << numSeconds << endl;
     return 0;
 }

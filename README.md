@@ -1,4 +1,4 @@
-# CS1-epmorrison
+# CSCI130-epmorrison
 
 ## Assignments
 

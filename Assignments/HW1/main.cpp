@@ -1,7 +1,7 @@
 /*
     StdIO HW1
     
-    Updated By: Evan Morrison
+    By: Evan Morrison
     Date: 1 Feb 2024
     
     This program shows what various stages of the hangman game will look like.

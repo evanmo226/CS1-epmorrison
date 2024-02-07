@@ -9,17 +9,23 @@ All about the variables
 #include <cassert>
 #include <cstdlib>
 #include <cstdio>
+#include <random>
 
 using namespace std;
 
 
 int main()
 {
+    srand(time(0));
+    cout << rand()%100 +1 << endl;
 
-    string phrase;
 
-    phrase = "this is a sentence";
-    
+
+
+    // string phrase;
+
+    // phrase = "this is a sentence";
+
     // float n1, n2;
     // float sum;
     // cout << "Enter number 1: ";
@@ -33,19 +39,6 @@ int main()
 
     // cout << n1 << " + " << n2 << " = " << sum << endl;
     // printf("");
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     // int origSeconds;
     // int numSeconds;

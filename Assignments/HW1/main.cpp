@@ -2,7 +2,7 @@
     StdIO HW1
     
     By: Evan Morrison
-    Date: 1 Feb 2024
+    Date: 6 Feb 2024
     
     This program shows what various stages of the hangman game will look like.
 

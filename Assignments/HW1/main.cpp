@@ -51,6 +51,5 @@ int main()
     cout << "\nStage 7\n" << stage7 << endl;
 
 
-
     return 0;
 }

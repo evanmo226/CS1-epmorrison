@@ -17,7 +17,8 @@
  
 using namespace std;
  
-int main() {
+int main() 
+{
     string name;
     cout << "Enter your name here: ";  //FIXED
     getline(cin, name);    //FIXED

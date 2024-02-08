@@ -18,8 +18,10 @@ using namespace std;
 
 int main()
 {
-    cout << setw(10) << "HelloWorld!!" << endl;
-//     char someCh = 'A';
+    cout << left;
+    cout << right;
+//      cout << setw(10) << "HelloWorld!!" << endl;
+//      char someCh = 'A';
 
 //     cout << (char)tolower(someCh) << endl;
     return 0;

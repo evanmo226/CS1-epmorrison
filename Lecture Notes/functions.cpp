@@ -40,5 +40,9 @@ int main()
     answer = addNums(num1, num2);
     cout << num1 << " + " << num2 << " = " << answer << endl;
 
+    cout << "Hit enter to quit the program: ";
+    cin.ignore(10000,'\n');
+    cin.get();
+
     return 0;
 }

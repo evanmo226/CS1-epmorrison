@@ -14,6 +14,18 @@
 | Self Grade | 100/100 |
 | Notes | Coded various stages for an underdevelopement hangman game. |
 
+### Assignment #2
+
+| Name | Value |
+| :--- | :--- |
+| Name | 2 - Triangle - Maths  |
+| Description | Area and Perimeter of a Triangle |
+| Due Date | 19-Feb-24 |
+| Status | complete |
+| Location |  |
+| Self Grade | 100/100 |
+| Notes | Program finds perimeter and area of a possible triangle. |
+
 ## Labs
 
 ### Lab #1

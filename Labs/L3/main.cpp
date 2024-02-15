@@ -2,7 +2,7 @@
     Functions Lab
     Updated By: Evan Morrison
     CSCI 130
-    Date: 2-13-2024
+    Date: 2-15-2024
 
     Program prompts the user to enter two points in the form (x1, y1) and (x2, y2) and finds the distance between the two points using a function.
     Algorithm steps:

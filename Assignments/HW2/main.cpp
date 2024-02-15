@@ -16,7 +16,7 @@
 using namespace std;
 
 int main() {
-    //Declaring variables for the program
+    // Declaring variables for the program
     int side1, side2, side3;
     int perim;
     double area;
@@ -24,7 +24,7 @@ int main() {
     // Prompts user to enter side lengths
     cout << "Hello, please enter three side lengths of the triangle." << endl; 
 
-    //User enters side names into the three variables
+    // User enters side names into the three variables
     cout << "Side 1: ";
     cin >> side1;
     cout << "Side 2: ";
@@ -32,7 +32,7 @@ int main() {
     cout << "Side 3: ";
     cin >> side3;
 
-    //Making sure the side lengths actually form a triangle
+    // Making sure the side lengths actually form a triangle
     if(side1+side2 < side3){
         cout << "The given numbers do not form a triangle. Please try again." << endl;
         return 0;
@@ -46,13 +46,13 @@ int main() {
         return 0;
     }
 
-    //If the code got to this point, a triangle is possible
+    // If the code got to this point, a triangle is possible
     cout << "\nThe given triangle is possible." << endl;
 
-    //Calculating the perimeter of the triangle
+    // Calculating the perimeter of the triangle
     perim = side1 + side2 + side3;
 
-    //Calculating the area of the triangle using Heron's formula
+    // Calculating the area of the triangle using Heron's formula
     double s = (perim)/2; //using perim to solve for the s value of the formula
     area = sqrt(s*(s-side1)*(s-side2)*(s-side3));
 

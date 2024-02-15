@@ -44,11 +44,22 @@
 
 | Name | Value |
 | :--- | :--- |
-| Name | 1 - Circle Lab |
+| Name | 2 - Circle Lab |
 | Description | Program calcultaes area ad circumference of a circle from radius entered by the user |
-| Due Date | 20-Feb-24 |
+| Due Date | 19-Feb-24 |
 | Status | complete |
 | Location | https://github.com/evanmo226/CS1-epmorrison/tree/main/Labs/L2 |
 | Self Grade | 100/100 |
 | Notes | typed the given code stub; fixed all the fixmes; embeded math terms |
 
+### Lab #3
+
+| Name | Value |
+| :--- | :--- |
+| Name | 3 - Function and Testing Lab |
+| Description | Program finds the distance between two points entered by the user |
+| Due Date | 26-Feb-24 |
+| Status | complete |
+| Location | https://github.com/evanmo226/CS1-epmorrison/blob/main/Labs/L3/main.cpp |
+| Self Grade | 100/100 |
+| Notes | typed the given code; fixed all the fixmes; utilized testing command and functions |

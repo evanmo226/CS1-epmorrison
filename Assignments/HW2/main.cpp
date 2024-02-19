@@ -33,15 +33,15 @@ int main() {
     cin >> side3;
 
     // Making sure the side lengths actually form a triangle
-    if(side1+side2 < side3){
+    if(side1+side2 <= side3){
         cout << "The given numbers do not form a triangle. Please try again." << endl;
         return 0;
     }
-    if(side3+side2 < side1){
+    if(side3+side2 <= side1){
         cout << "The given numbers do not form a triangle. Please try again." << endl;
         return 0;
     }
-    if(side1+side3 < side2){
+    if(side1+side3 <= side2){
         cout << "The given numbers do not form a triangle. Please try again." << endl;
         return 0;
     }

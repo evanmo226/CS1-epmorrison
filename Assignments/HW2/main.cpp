@@ -53,7 +53,10 @@ int main() {
     perim = side1 + side2 + side3;
 
     // Calculating the area of the triangle using Heron's formula
-    double s = (perim)/2; //using perim to solve for the s value of the formula
+    double s = (perim)*0.5; //using perim to solve for the s value of the formula
+
+    cout << s << endl;
+
     area = sqrt(s*(s-side1)*(s-side2)*(s-side3));
 
     cout << "The perimeter of the triangle is: " << perim << endl;

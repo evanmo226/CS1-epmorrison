@@ -26,6 +26,18 @@
 | Self Grade | 100/100 |
 | Notes | Program finds perimeter and area of a possible triangle. |
 
+### Assignment #3
+
+| Name | Value |
+| :--- | :--- |
+| Name | 3 - Maths and Functions  |
+| Description | Basic Calculator |
+| Due Date | 19-Feb-24 |
+| Status | complete |
+| Location | https://github.com/evanmo226/CS1-epmorrison/blob/main/Assignments/HW2/main.cpp |
+| Self Grade | 100/100 |
+| Notes | Program uses functons and automated unit testing to perform calculations on two entered numbers|
+
 ## Labs
 
 ### Lab #1

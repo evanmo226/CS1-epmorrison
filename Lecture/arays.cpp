@@ -7,28 +7,54 @@
 
 using namespace std;
 
+int addNums(int[], int);
+
 int main(int argc, char* argv[])
 {
-    size_t arrSize;
-    cout << "How many numbers do you want? ";
-    cin >> arrSize;
+    // int moreNumbers[10];
 
-    float numbers[arrSize];
+    int* heapNums = new int[10];
 
-    for(size_t i = 0; i<arrSize; i++){
-        cout << "Enter a number: ";
-        cin >> numbers[i];
-        if(i == arrSize-1){
-            cout << endl;
-        }
+    for(size_t i=0; i<10; i++){
+        cout << "Please enter a number: ";
+        cin >> *(heapNums+i);
     }
 
-    for(size_t i = 0; i <arrSize ; i++){
-        cout << numbers[i] << " ";
-        if(i == arrSize-1){
-            cout << endl;
-        }
+    for(size_t i=0; i<10; i++){
+        cout << "Please enter a number: ";
+        cin >> *(heapNums+i);
+    
     }
+
+    for(size_t i =0; i<10; i++){
+        cout << *(heapNums + i);
+    }
+
+    // int* ptr;
+    // size_t arrSize = 5;
+
+    // cout << "How many numbers do you want? ";
+    // cin >> arrSize;
+    // int numbers[arrSize];
+
+    // for(size_t i = 0; i<arrSize; i++){
+    //     cout << "Enter a number: ";
+    //     cin >> numbers[i];
+    //     if(i == arrSize-1){
+    //         cout << endl;
+    //     }
+    // }
+
+
+
+
+
+    // for(size_t i = 0; i <arrSize ; i++){
+    //     cout << numbers[i] << " ";
+    //     if(i == arrSize-1){
+    //         cout << endl;
+    //     }
+    // }
 
 
    

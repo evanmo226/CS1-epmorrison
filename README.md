@@ -75,3 +75,15 @@
 | Location | https://github.com/evanmo226/CS1-epmorrison/blob/main/Labs/L3/main.cpp |
 | Self Grade | 100/100 |
 | Notes | typed the given code; fixed all the fixmes; utilized testing command and functions |
+
+### Lab #4
+
+| Name | Value |
+| :--- | :--- |
+| Name | 4 - Conditional Lab |
+| Description | Program find statistical values of given two numbers. |
+| Due Date | 17-Mar-24 |
+| Status | complete |
+| Location | https://github.com/evanmo226/CS1-epmorrison/tree/main/Labs/L4 |
+| Self Grade | 100/100 |
+| Notes | typed the given code; fixed all the fixmes; utilized testing command and functions |

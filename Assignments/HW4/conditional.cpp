@@ -9,8 +9,8 @@
 #include <iostream>
 #include <cstdio>
 #include <string>
-#include <casert>
-#include <cmmath>
+#include <cassert>
+#include <cmath>
 
 using namespace std;
 
@@ -36,3 +36,39 @@ double findSmall(const double &, const double &, const double &, const double &,
 
 //function returns if floor of sum is even, odd, or zero
 string findFloor(const double &, const double &, const double &, const double &, const double &);
+
+void test();
+
+bool program();
+
+void clearScreen() {
+    #ifdef _WIN32
+        system("clS");
+    #else
+        system("clear");
+    #endif
+}
+
+
+int main(int argc, char* argv[]){
+    bool contRunning = true;
+    if (argc == 2 && string(argv[1]) == "test"){
+        test();
+        exit(EXIT_SUCCESS);
+    }
+    else{
+        while (true){
+            if(!program())
+                break;
+            cin.ignore(100, '\n');
+            cout << "Enter to continue... ";
+            cin.get();
+            clearScreen();
+        }
+    }
+    cin.ignore(100, '\n');
+    cout << "Hit enter to quit the program.\n";
+    cin.get();
+    cout << "Good bye!" << endl;
+    return 0;
+}

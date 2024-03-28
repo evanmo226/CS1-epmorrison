@@ -38,6 +38,18 @@
 | Self Grade | 100/100 |
 | Notes | Program uses functons and automated unit testing to perform calculations on two entered numbers|
 
+### Assignment #4
+
+| Name | Value |
+| :--- | :--- |
+| Name | 4 - Conditionals  |
+| Description | CLI Menu, Conditionals, Functions and Testing |
+| Due Date | 28-Mar-24 |
+| Status | complete |
+| Location | https://github.com/evanmo226/CS1-epmorrison/tree/main/Assignments/HW4 |
+| Self Grade | 100/100 |
+| Notes | Proogram computes certain values such as sum, product, max, min, average, oddity of any 5 given numbers along with the following requirements. |
+
 ## Labs
 
 ### Lab #1

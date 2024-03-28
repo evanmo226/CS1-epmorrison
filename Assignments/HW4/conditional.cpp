@@ -4,6 +4,7 @@
     By: Evan Morrison
     Date: March 26
 
+    Program computes certain values such as sum, product, max, min, average, oddity of any 5 given numbers along with the following requirements.
 */
 
 #include <iostream>

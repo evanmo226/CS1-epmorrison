@@ -48,7 +48,7 @@
 | Status | complete |
 | Location | https://github.com/evanmo226/CS1-epmorrison/tree/main/Assignments/HW4 |
 | Self Grade | 100/100 |
-| Notes | Proogram computes certain values such as sum, product, max, min, average, oddity of any 5 given numbers along with the following requirements. |
+| Notes | Program computes certain values such as sum, product, max, min, average, oddity of any 5 given numbers along with the following requirements. |
 
 ## Labs
 

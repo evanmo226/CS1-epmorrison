@@ -54,6 +54,10 @@ void clearScreen() {
 int main(int argc, char* argv[]){
     bool contRunning = true;
     clearScreen();
+    string name;
+    cout << "Please enter your name: ";
+    getline(cin, name);
+    cout << "It is great to meet you " << name << "!" << endl;
     if (argc == 2 && string(argv[1]) == "test"){
         test();
         exit(EXIT_SUCCESS);

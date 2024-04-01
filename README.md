@@ -48,7 +48,20 @@
 | Status | complete |
 | Location | https://github.com/evanmo226/CS1-epmorrison/tree/main/Assignments/HW4 |
 | Self Grade | 100/100 |
-| Notes | Program computes certain values such as sum, product, max, min, average, oddity of any 5 given numbers along with the following requirements. |
+| Notes | Program computes certain values such as sum, product, max, min, average, oddity of any 5 given numbers along with the requirements. |
+
+### Assignment #5
+
+| Name | Value |
+| :--- | :--- |
+| Name | 5 - Loops HW |
+| Description | "Guess the Number" Game |
+| Due Date | 28-Mar-24 |
+| Status | complete |
+| Location | https://github.com/evanmo226/CS1-epmorrison/tree/main/Assignments/HW5 |
+| Self Grade | 100/100 |
+| Notes | Design and implement the “Guess the Number” game with the requirements. |
+
 
 ## Labs
 

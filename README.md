@@ -112,3 +112,15 @@
 | Location | https://github.com/evanmo226/CS1-epmorrison/tree/main/Labs/L4 |
 | Self Grade | 100/100 |
 | Notes | typed the given code; fixed all the fixmes; utilized testing command and functions |
+
+### Lab #5
+
+| Name | Value |
+| :--- | :--- |
+| Name | 5 - Loops Lab |
+| Description | Program demostrates use of loops by drawing various geometric shapes with ASCII characters. |
+| Due Date | 1-Apr-24 |
+| Status | complete |
+| Location | https://github.com/evanmo226/CS1-epmorrison/tree/main/Labs/L5 |
+| Self Grade | 100/100 |
+| Notes | typed the given code; fixed all the fixmes; utilized loops |

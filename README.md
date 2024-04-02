@@ -119,7 +119,7 @@
 | :--- | :--- |
 | Name | 5 - Loops Lab |
 | Description | Program demostrates use of loops by drawing various geometric shapes with ASCII characters. |
-| Due Date | 1-Apr-24 |
+| Due Date | 28-Mar-24 |
 | Status | complete |
 | Location | https://github.com/evanmo226/CS1-epmorrison/tree/main/Labs/L5 |
 | Self Grade | 100/100 |

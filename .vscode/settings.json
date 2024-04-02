@@ -3,7 +3,8 @@
         "iostream": "cpp",
         "ostream": "cpp",
         "cmath": "cpp",
-        "numbers": "cpp"
+        "numbers": "cpp",
+        "new": "cpp"
     },
     "C_Cpp.errorSquiggles": "enabled",
     "C_Cpp.intelliSenseEngineFallback": "enabled"

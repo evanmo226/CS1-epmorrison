@@ -136,3 +136,15 @@
 | Location | https://github.com/evanmo226/CS1-epmorrison/tree/main/Labs/L6 |
 | Self Grade | 100/100 |
 | Notes | typed the given code; fixed all the fixmes; utilized pointers, enums, and a defined namespace |
+
+### Lab #7
+
+| Name | Value |
+| :--- | :--- |
+| Name | 7 - String/Kattis Lab |
+| Description | Solving the Kattis hissing microphone problem. |
+| Due Date | 4-Apr-24 |
+| Status | complete |
+| Location | https://github.com/evanmo226/CS1-epmorrison/tree/main/Labs/L7 |
+| Self Grade | 100/100 |
+| Notes | typed the given code; fixed all the fixmes; |

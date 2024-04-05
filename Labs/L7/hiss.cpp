@@ -38,7 +38,9 @@ string answer(const string &line){
     if(line.find("ss") != string::npos){    //FIXED
         return "hiss";
     }
-    else return "no hiss";
+    else{
+        return "no hiss";
+    }
 }
 
 void testAnswer(){

@@ -62,6 +62,18 @@
 | Self Grade | 100/100 |
 | Notes | Design and implement the “Guess the Number” game with the requirements. |
 
+### Assignment #5
+
+| Name | Value |
+| :--- | :--- |
+| Name | 6 - String - Apaxiaaaaaans! |
+| Descripton | Solve Kattis Problem - Apaxiaaaaaaaaans! |
+| Due Date | 8-Apr-24 |
+| Status | complete |
+| Location | https://github.com/evanmo226/CS1-epmorrison/tree/main/Assignments/HW6 |
+| Self Grade | 100/100 |
+| Notes | Solve the Kattis Problem following the given requirements at a minimum. |
+
 
 ## Labs
 

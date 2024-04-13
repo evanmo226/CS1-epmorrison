@@ -160,3 +160,15 @@
 | Location | https://github.com/evanmo226/CS1-epmorrison/tree/main/Labs/L7 |
 | Self Grade | 100/100 |
 | Notes | typed the given code; fixed all the fixmes; |
+
+### Lab #8
+
+| Name | Value |
+| :--- | :--- |
+| Name | 8 - Array Lab |
+| Description | Use of array data structure and some opperations on arrays.  |
+| Due Date | 12-Apr-24 |
+| Status | complete |
+| Location | https://github.com/evanmo226/CS1-epmorrison/tree/main/Labs/L8 |
+| Self Grade | 100/100 |
+| Notes | typed the given code; fixed all the fixmes; utilized operations on arays |

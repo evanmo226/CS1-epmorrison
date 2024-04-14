@@ -117,7 +117,6 @@ bool game(string name, double &win, double &lose){
         int guess = readNumber();
         while (guess > 20 || guess <1){
             cout << "Your number was not between 1 and 20. Enter another number." << endl;
-            cout << "My number was " << ans <<".\n";
             guess = readNumber();
         }
         int check = checkGuess(guess, ans);

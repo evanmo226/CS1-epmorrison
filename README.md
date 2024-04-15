@@ -62,7 +62,7 @@
 | Self Grade | 100/100 |
 | Notes | Design and implement the “Guess the Number” game with the requirements. |
 
-### Assignment #5
+### Assignment #6
 
 | Name | Value |
 | :--- | :--- |
@@ -74,6 +74,17 @@
 | Self Grade | 100/100 |
 | Notes | Solve the Kattis Problem following the given requirements at a minimum. |
 
+### Assignment #7
+
+| Name | Value |
+| :--- | :--- |
+| Name | 7 - Array - Falling Apart |
+| Descripton | Solve Kattis Problem - Falling Apart |
+| Due Date | 15-Apr-24 |
+| Status | complete |
+| Location | https://github.com/evanmo226/CS1-epmorrison/tree/main/Assignments/HW7 |
+| Self Grade | 100/100 |
+| Notes | Solve the Kattis Problem following the given requirements at a minimum. |
 
 ## Labs
 

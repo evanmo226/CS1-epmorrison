@@ -4,7 +4,11 @@
         "ostream": "cpp",
         "cmath": "cpp",
         "numbers": "cpp",
-        "new": "cpp"
+        "new": "cpp",
+        "array": "cpp",
+        "string_view": "cpp",
+        "initializer_list": "cpp",
+        "utility": "cpp"
     },
     "C_Cpp.errorSquiggles": "enabled",
     "C_Cpp.intelliSenseEngineFallback": "enabled"

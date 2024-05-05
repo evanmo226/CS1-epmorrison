@@ -101,7 +101,7 @@ void game(string word){
 
     cout << "Start guessing letters!" << endl;
 
-
+    //keeps loop going until the user guesses the word or runs out of attempts
     while(!solved && wrong < MAX_GUESS){
         clearScreen();
         stages(wrong);
@@ -109,20 +109,23 @@ void game(string word){
         cout << "Word: " << soFar << endl;
         cout << "Guess a letter: ";
         cin >> guess;
-        guess = tolower(guess);
+        guess = toupper(guess);
         
         //see if user has already entered this character
         while(used.find(guess) != string::npos){
             cout << "You have already guessed " << guess << ". Try again: ";
             cin >> guess;
-            guess = tolower(guess);
+            guess = toupper(guess);
         }
 
+        //adds guess to a string of used letters
         used = used + guess + " ";
 
+
+        //sees if the character is in the word, and if the word is fully solved
         if (containsChar(word, guess)){
             for (size_t i = 0; i < word.length(); i++){
-                if (tolower(word[i]) == guess){
+                if (toupper(word[i]) == guess){
                     soFar[i] = guess;
                 }
                 if (soFar == word) solved = true;
@@ -131,13 +134,18 @@ void game(string word){
             wrong++;
         }
     }
+    //if solved or unsolved, code outputs closing statements
     if (solved){
         clearScreen();
         stages(wrong);
+        cout << "Letters used - " << used << endl;
+        cout << "Word: " << soFar << endl;
         cout << "Great job! You correctly guessed the word " << word << "!" << endl;
     } else {
         clearScreen();
         stages(wrong);
+        cout << "Letters used - " << used << endl;
+        cout << "Word: " << soFar << endl;
         cout << "You did not correctly guess the word " << word << "." << endl;
     }
 }
@@ -147,7 +155,7 @@ void program(){
     string oldWord = selectWord();
     string word = "";
     for (char c : oldWord){
-        word += tolower(c);
+        word += toupper(c);
     }
 
 
@@ -168,7 +176,7 @@ void program(){
         cout << "Would you like to play again? (Y/y)" << endl;
         cin.ignore(1000, '\n');
         cin.get(input);
-        if (tolower(input) != 'y') quit = true;
+        if (toupper(input) != 'y') quit = true;
     }
 }
 

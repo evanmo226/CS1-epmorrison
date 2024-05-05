@@ -16,16 +16,23 @@
 
 using namespace std;
 
+
 const int MAX_GUESS = 7;
 
-void readWords(string *);
-string selectWord();
+
+
 int randomNumber();
-void stages(int);
+
+string selectWord();
 string wordLine(string);
-void game(string);
-bool containsChar(string, char);
+
+void readWords(string *);
+void stages(int);
+
 void program();
+void game(string);
+
+bool containsChar(string, char);
 
 
 void clearScreen() {
@@ -71,11 +78,13 @@ string selectWord(){
 }
 
 string wordLine(string word){
+    //creats a line of _ with the length of the word
     string soFar(word.length(), '_');
     return soFar;
 }
 
 bool containsChar(string word, char guess){
+    //sees to see if the word contains the letter that was guessed
     return word.find(guess) != string :: npos;
 }
 
@@ -85,11 +94,13 @@ void game(string word){
     char guess;
     string used = "";
     bool solved = false;
+
+
     string soFar = wordLine(word);
     clearScreen();
+
     cout << "Start guessing letters!" << endl;
 
-    guesses[wrong] = guess;
 
     while(!solved && wrong < MAX_GUESS){
         clearScreen();
@@ -150,7 +161,8 @@ void program(){
 
     char input;
     bool quit = false;
-    
+
+    //keeps game going until the user wants to quit playing
     while(!quit){
         game(word);
         cout << "Would you like to play again? (Y/y)" << endl;
@@ -161,6 +173,7 @@ void program(){
 }
 
 void stages(int stage){
+    //Used these from the first assignment
     stage++;
     switch(stage){
         case 1:

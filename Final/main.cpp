@@ -178,6 +178,7 @@ void program(){
         cin.get(input);
         if (tolower(input) != 'y') quit = true;
     }
+    clearScreen();
 }
 
 void stages(int stage){

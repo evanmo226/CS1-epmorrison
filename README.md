@@ -1,5 +1,19 @@
 # CSCI130-epmorrison
 
+## Final
+
+### Final Project
+
+| Name | Value |
+| :--- | :--- |
+| Name | Final Project  |
+| Description | Hangman Game  |
+| Due Date | 15-May-24 |
+| Status | complete |
+| Location | https://github.com/evanmo226/CS1-epmorrison/tree/main/Final |
+| Self Grade | 100/100 |
+| Notes | Coded a working hangman game. |
+
 ## Assignments
 
 ### Assignment #1

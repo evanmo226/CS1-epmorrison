@@ -79,7 +79,7 @@ string selectWord(){
 
 string wordLine(string word){
     //creats a line of _ with the length of the word
-    string soFar(word.length(), '_');
+    string soFar(word.length(), '_');       //Claude.ai helped me with this line
     return soFar;
 }
 
@@ -176,7 +176,7 @@ void program(){
         cout << "Would you like to play again? (Y/y)" << endl;
         cin.ignore(1000, '\n');
         cin.get(input);
-        if (toupper(input) != 'y') quit = true;
+        if (tolower(input) != 'y') quit = true;
     }
 }
 
